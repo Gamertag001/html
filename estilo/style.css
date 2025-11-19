@@ -1,0 +1,60 @@
+@keyframes rgb {
+  0% {
+    color: rgb(255, 0, 0); 
+  }
+  50% {
+    color: rgb(84, 230, 84); 
+  }
+  100% {
+    color: rgb(39, 39, 218);
+  }
+}
+
+
+p {
+	font-size: larger;
+	color: rgb(252, 252, 255);
+	 animation-name: rgb;
+  	animation-duration: 5s; 
+  	animation-iteration-count: infinite;
+}
+
+body {
+	margin: 32px;
+	padding: 21px;
+	background-color: rgb(41, 40, 40);
+}
+
+/*class */
+.bordes {
+	width: 550px;
+	border: 5px solid rgb(140, 180, 226);
+	border-radius: 52px;
+}
+
+img { 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img:hover {
+	border: 5px solid rgb(184, 108, 108);
+	filter: opacity(.7);
+}
+
+/* id */
+
+#prueba {
+	font-size: larger;
+}
+
+#prueba2 {
+	font-size: small;
+	color: rgb(143, 188, 160);
+}
+
+/* herencia */
+div {
+	color: red;
+}
