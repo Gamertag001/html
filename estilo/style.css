@@ -50,11 +50,22 @@ img:hover {
 }
 
 #prueba2 {
-	font-size: small;
+	font-size: medium;
 	color: rgb(143, 188, 160);
 }
 
 /* herencia */
 div {
 	color: red;
+}
+
+div1 ul #error {
+	color: rgb(240, 173, 50);
+	font-weight: bold;
+	font-size: larger;
+} 
+
+div1 li {
+	color: rgb(255, 255, 255);
+	font-size: medium;
 }

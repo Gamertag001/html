@@ -1,0 +1,33 @@
+div{
+	background-color: beige;
+	color: black;
+	width: 400px;
+	height: 250px;
+	margin: 5px 10px 12px 15px;
+	padding: 5px;
+}
+
+body{
+	background-color: rgb(37, 37, 37);
+}
+
+h1 {
+	color: white;
+}
+
+div1 {
+	border: solid 1px rgb(7, 6, 6);
+	padding: 5px;
+	display: inline-block;
+	font-size: 32px;
+	font-family: arial;
+	width: 100px;
+	height: 110px;
+	overflow: hidden;
+	margin: 5px 10px 12px 15px;
+	padding: 5px 10px 12px 15px;
+	border-top: solid 5px red;
+	border-right: solid 10px cyan;
+	border-bottom: solid 7px green;
+	border-left: solid 12px yellow;
+}
