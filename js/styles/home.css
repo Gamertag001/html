@@ -1,0 +1,55 @@
+@keyframes rgb {
+  0% {
+    color: rgb(255, 0, 0); 
+  }
+  50% {
+    color: rgb(84, 230, 84); 
+  }
+  100% {
+    color: rgb(39, 39, 218);
+  }
+}
+
+
+body {
+    font-family: bold, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #292828;
+}
+
+h1 {
+	color: #ffffff;
+	text-align: center;
+	margin-top: 20px;
+	animation-name: rgb;
+  	animation-duration: 5s; 
+  	animation-iteration-count: infinite;
+}
+
+p {
+	color: #ffffff;
+	text-align: center;
+	margin-top: 10px;
+	animation-name: rgb;
+  	animation-duration: 5s; 
+  	animation-iteration-count: infinite;
+}
+
+button {
+	background-color: #3f85ad; 
+	border: none;
+	border-radius: 15px;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 4px 2px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+body > div{
+	text-align: center;
+}
