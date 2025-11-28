@@ -1,0 +1,41 @@
+body {
+    font-family: bold, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #292828;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+div > h2 {
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+div > p {
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+div > button {
+	background-color: rgb(56, 121, 206);
+	color: rgb(34, 87, 136);
+	display: block;
+	margin: 20px auto;
+	border-radius: 15px;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+div > img {
+	display: block;
+	margin: 20px auto;
+	border-radius: 15px;
+}
