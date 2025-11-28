@@ -58,13 +58,13 @@ btnImagen.onclick = function () {
 };
 
 
-let lista = document.getElementById("lista");
-let btnAgregar = document.getElementById("btnAgregar");
+let list = document.getElementById("list");
+let btnagg = document.getElementById("btnagg");
 let contadorElementos = 1;
 
-btnAgregar.onclick = function () {
+btnagg.onclick = function () {
     let li = document.createElement("li");
-    li.textContent = "Elemento " + contadorElementos;
-    lista.appendChild(li);
+    li.textContent = 'elemento' + contadorElementos;
+    list.appendChild(li);
     contadorElementos++;
 };
