@@ -42,7 +42,7 @@ btnless.onclick = function () {
 
 
 let imagen = document.getElementById("imagen");
-let btnImagen = document.getElementById("btnImagen");
+let btnImagen = document.getElementById("btnimagen");
 
 let img1 = "statics/faker.jpg";
 let img2 = "statics/pollo.jpg";
@@ -68,3 +68,4 @@ btnagg.onclick = function () {
     list.appendChild(li);
     contadorElementos++;
 };
+
